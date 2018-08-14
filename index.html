@@ -3,7 +3,7 @@
 
 <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
+    <meta charset="utf-md-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
@@ -14,50 +14,67 @@
 </head>
 
 <body>
-    <div id="container">
-        <nav class="navbar navbar-expand-lg navbar-light" style=background-color:#fff;>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <h1>Douglas Boyce</h1>
-            </div class="collapse navbar-collapse">
-                <ul class="navbar-nav">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contatct</a>     
-                </ul>
+    <!-- NavBar (copied and pasted from WC3) -->
+    <!-- Static navbar -->
+    <!-- Start Nav -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#fff">
+        <a class="navbar-brand" href="index.html" style="background-color:#4aaaa5; color:#fff; width:175px;text-align:center">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav justify-content-end" style="width: 100%">
+                <li class="nav-item">
+                        <a class="nav-link disabled" href="#">About</a>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <!-- Main Body goes in Container -->
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-6 col-md-9 col-lg-12">
+                <!-- The content in this div gets wrapped in a card -->
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">About</h2>
+                    </div>
+                </div>
+                <span class="border border-0"></span>
             </div>
-          </nav>
-        <div id="row">
-            <div id="col">
-              <h2>About</h2>
-              <hr><br>
-              <img src="assets/images/my_picture.jpg" alt="Doug Boyce" id="auth-img">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nisi quo nihil aut voluptatibus cupiditate sapiente, quos inventore earum pariatur reprehenderit rem recusandae ad ullam temporibus iure! Totam, voluptates accusamus.</p>
-
-              <p>Repellendus rerum suscipit consequuntur vero, eos recusandae error molestiae ad ipsa, cum atque reprehenderit quibusdam deserunt tempore aspernatur! Nobis repellat quae in impedit accusamus eligendi. Non nesciunt id optio vero.</p>
-
-              <p>Tempore dolores ullam quas ratione rerum iste in nihil at debitis nam! Veniam placeat ea dolor ducimus, nobis, excepturi tempore, maiores perferendis omnis suscipit eos praesentium nesciunt necessitatibus aliquid distinctio!</p>
-
-              <p>Possimus ratione saepe quam porro quia nihil, eaque iste assumenda voluptatem dicta reiciendis. Perferendis aperiam consectetur quae iste in? Atque laudantium assumenda impedit placeat. Voluptatem eius possimus sunt vel soluta!
-              Quaerat voluptatum neque unde sunt voluptatem dolorum quas asperiores inventore natus soluta nisi fugiat magni, beatae, error ex saepe deserunt, necessitatibus quisquam! Ipsam porro perferendis distinctio alias, architecto id sequi?</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <img class="img img-thumbnail" src="assets/images/my_picture.jpg">
             </div>
-
-        </div> <!-- end of row -->
+            <div class="col-lg-9">
+                <!-- <h2>The Greatest Website Ever Made</h2> -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cumque corporis quis sed, quod pariatur!
+                    Officia aut tempore repellendus, culpa inventore magnam accusamus nemo fugiat debitis voluptates ratione
+                    omnis, nobis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cumque corporis quis sed,
+                    quod pariatur! Officia aut tempore repellendus, culpa inventore magnam accusamus nemo fugiat debitis
+                    voluptates ratione omnis, nobis</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cumque corporis quis sed, quod pariatur!
+                    Officia aut tempore repellendus, culpa inventore magnam accusamus nemo fugiat debitis voluptates ratione
+                    omnis, nobis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cumque corporis quis sed,
+                    quod pariatur! Officia aut tempore repellendus, culpa inventore magnam accusamus nemo fugiat debitis
+                    voluptates ratione omnis, nobis</p>
+            </div>
+        </div>
+        <br>
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
 </body>
 
 </html>
-        
