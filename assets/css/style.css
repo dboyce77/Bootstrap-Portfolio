@@ -26,15 +26,47 @@ h3, h2 {
   width: 284px;
 }
 
-#work {
-  position: absolute;
-  color: #fff;
-  text-align: center;
+h2, h3 {
+  color: #4aaaa5;
 }
 
-#work h3 {
-  width: 100%;
-  background-color: #4aaaa5;
-  padding: 15px;
-  bottom: 25px;
+
+.work {
+  width: 284px;
+  position: absolute;
 }
+
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
+  background-color:#000;
+}
+
+@media screen and (max-width: 550px) {
+  .work {
+    width: 550px;
+  }
+  .work h3 {
+    margin: auto;
+  }
+
+  }
