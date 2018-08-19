@@ -17,7 +17,9 @@
     <!-- NavBar (copied and pasted from WC3) -->
     <!-- Static navbar -->
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#fff">
-        <a class="navbar-brand" href="index.html" style="background-color:#4aaaa5; color:#fff; width:175px;text-align:center">My Portfolio</a>
+        <a class="navbar-brand" href="index.html" style="background-color:#4aaaa5; color:#fff; width:175px;text-align:center">My
+            Portfolio
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -42,40 +44,39 @@
     <!-- Main Body goes in Container -->
     <div class="container">
         <div class="row">
-            <div class="col-sm-6 col-md-9 col-lg-12">
-                <!-- The content in this div gets wrapped in a card -->
-                <div class="card">
-                    <div class="card-body">
-                        <h2 class="card-title">Contact</h2>
-                    </div>
-                </div>
+            <div class="col-md-4 col-12">
+                <h2 class="card-title">Contact</h2>
             </div>
         </div>
 
         <div class="row">
-            <div class="card-body">
-                <div class="form-group row">
-                    <form>
-                        <div class="form-group">
-                            <label for="InputName">Name</label>
-                            <input type="name" class="form-control" id="InputName" placeholder="John Smith">
-                        </div>
-                        <div class="form-group">
-                            <label for="InputEmail">Email address</label>
-                            <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="example@somewhere.com">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                        </div>
-                        <div class="form-group">
-                            <label for="FormControlTextarea">Message</label>
-                            <textarea class="form-control" id="FormControlTextarea" rows="10"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
+            <form class="col-md4 col-12">
+                <div class="form-group">
+                    <label for="InputName">Name</label>
+                    <input type="name" class="form-control" id="InputName" placeholder="John Smith">
                 </div>
-            </div>
+                <div class="form-group">
+                    <label for="InputEmail">Email address</label>
+                    <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="example@somewhere.com">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="FormControlTextarea">Message</label>
+                    <textarea class="form-control" id="FormControlTextarea" rows="10"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div> <!-- end of col -->
+    </div> <!-- end of row -->
+
+    <!-- footer -->
+    <footer class="footer">
+        <div id="container">
+            <h3 text-white text-center>Douglas Boyce &copy;</h3>
         </div>
-        <br>
-    </div>
+    </footer>
+
+    </div> <!-- end of container -->
 
 </body>
 
